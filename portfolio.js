@@ -18,4 +18,6 @@ const observer = new IntersectionObserver((entries) => {
 // Declare the hiddenElements variable using const to ensure it is block-scoped
 const hiddenElements = document.querySelectorAll('.hidden, .hidden1, .hidden2');
 // Observe each hidden element using the observer
-hiddenElements.forEach((el) => observer.observe(el));
+hiddenElements.forEach((el) => {
+    observer.observe(el); // Ensure the observe method is called with parentheses
+});
