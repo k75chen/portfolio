@@ -13,7 +13,7 @@ h1 {
 	height: 100px;
 	position: fixed;
 	top: 0px;
-	left: 0px;
+	left: 0px
 	background-color: #131313;
 	z-index: 10;
 }
@@ -26,6 +26,8 @@ h1 {
 	flex-wrap: wrap;
 	color: white;
 }
+
+yoyoyoyo :DDDD
 
 #nav ul li{
 	list-style: none;
@@ -58,6 +60,7 @@ h1 {
 	margin: 4px 2px;
 }
 
+lmao 
 .contact a {
 	text-decoration: none;
 	color: white;
